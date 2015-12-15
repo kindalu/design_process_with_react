@@ -11,17 +11,20 @@ C: 傳達 (Communication)
 
 **定義問題**  
 B1) 透過溝通和觀察，找出真正要解的「問題 / User Stories」是什麼  
-問自己：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？   
+
+最後問自己：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？   
 
 **分析**  
 A1) 研究「問題 / User Stories」的現有解法  
 A2) 分析解法中問題的「階層架構/模組」和「資料表達 - data / state / 資料結構」  
 A3) 分析解法中的「資料表達」的變化流程  
-問自己：每個解法的優缺點能夠說出來嗎？他們為什麼會這樣子設計？    
+
+Q：每個解法的優缺點能夠說出來嗎？他們為什麼會這樣子設計？    
 
 **重構**  
 S1）對 A 重新提出各種更好的設計、包含 Prototype ( PS: 這步蘋果會有十種設計，之後會挑三種進入實作)  
-問自己: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？    
+
+Q: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？    
 
 **UI設計**  
 I.UI設計.1) 想有要哪些資料/state/input/display 才能滿足新的 User Stories
@@ -34,7 +37,7 @@ I.UI設計.3) 想每個元件的外觀、互動流程什麼樣子
 這段是不用打開 HTML/JS/CSS 程式編輯器的，請用紙筆、Wireframe tool、Prototype tool、Sketch之類的，
 把元件和互動的流程視覺畫出來。
 
-問自己：可以很 vivid 的想出整個「資料流」和元件的外觀和版面嗎？能清楚的講給大家聽嗎？每個元件有哪些state?測試的流程是什麼？要有 Pseudo Code 嗎？
+Q：可以很 vivid 的想出整個「資料流」和元件的外觀和版面嗎？能清楚的講給大家聽嗎？每個元件有哪些state?測試的流程是什麼？要有 Pseudo Code 嗎？
 
 **程式實作**  
 I.render.1) 寫 Javascript 把 props 轉換成 HTML元件和埋 CSS Classes  
@@ -42,11 +45,11 @@ I.render.2) 寫 CSS in local scope 來控制元件外觀的變化 ( CSS 是元�
 I.render.3) 幫 Pure and Shallow 元件都裝上 ReactComponentWithPureRenderMixin 加速  
 I.資料流) 寫 Javascript 處理 Action 發生如何通知、更新 state  
 
-問自己：一個月後這個 code 自己看得懂嗎？會想維護嗎？測試都有通過嗎？
+Q：一個月後這個 code 自己看得懂嗎？會想維護嗎？測試都有通過嗎？
 
-**溝通/傳達**
-C) 設計使用者第一次、第二次、第三次的使用經驗 or Magic Moment or Growth Hacking，讓使用者接受並上手你的新設計、解決他們的問題 
-問自己：第一次用這個東西，吸引你的地方是什麼？為什麼會想用第二次、第三次？有 Wow Amazing 的感覺嗎？為什麼使用者會回來用，有做實驗證明嗎？  
+**溝通/傳達**  
+C) 設計使用者第一次、第二次、第三次的使用經驗 or Magic Moment or Growth Hacking，讓使用者接受並上手你的新設計、解決他們的問題   
+Q：第一次用這個東西，吸引你的地方是什麼？為什麼會想用第二次、第三次？有 Wow Amazing 的感覺嗎？為什麼使用者會回來用，有做實驗證明嗎？  
   
   
 **It’s murmur time.**  
