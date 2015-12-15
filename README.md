@@ -12,7 +12,7 @@ C: 傳達 (Communication)
 **定義問題**  
 B1) 透過溝通和觀察，找出真正要解的「問題 / User Stories」是什麼  
 
-最後問自己：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？   
+Q：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？   
 
 **分析**  
 A1) 研究「問題 / User Stories」的現有解法  
@@ -48,7 +48,8 @@ I.資料流) 寫 Javascript 處理 Action 發生如何通知、更新 state
 Q：一個月後這個 code 自己看得懂嗎？會想維護嗎？測試都有通過嗎？
 
 **溝通/傳達**  
-C) 設計使用者第一次、第二次、第三次的使用經驗 or Magic Moment or Growth Hacking，讓使用者接受並上手你的新設計、解決他們的問題   
+C) 設計使用者第一次、第二次、第三次的使用經驗 or Magic Moment or Growth Hacking，讓使用者接受並上手你的新設計、解決他們的問題  
+  
 Q：第一次用這個東西，吸引你的地方是什麼？為什麼會想用第二次、第三次？有 Wow Amazing 的感覺嗎？為什麼使用者會回來用，有做實驗證明嗎？  
   
   
