@@ -26,7 +26,7 @@ S1）對 A 重新提出各種更好的設計、包含 Prototype ( PS: 這步蘋�
 
 Q: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？    
 
-**UI設計**  
+**UI設計(從 User Story 想出畫面)**  
 I.UI設計.1) 想有要哪些資料/state/input/display 才能滿足新的 User Stories
 I.UI設計.1) 想有哪些 UI components 才能實現「資料表達/state」的變化流程  
 I.UI設計.2) 想每個 component 的 props (對外API & 元件要知道多少問題中自己的角色)  
