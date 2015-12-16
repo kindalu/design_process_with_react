@@ -24,7 +24,7 @@ Q：每個解法的優缺點能夠說出來嗎？他們為什麼會這樣子設�
 **重構**  
 S1）對 A 重新提出各種更好的設計、包含 Prototype ( PS: 這步蘋果會有十種設計，之後會挑三種進入實作)  
 
-Q: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？    
+Q: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？User story 有好的標準嗎? ( benchmark / test case)      
 
 **UI設計(從 User Story 想出畫面)**  
 I.UI設計.1) 想有要哪些資料/state/input/display 才能滿足新的 User Stories
