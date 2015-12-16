@@ -10,12 +10,12 @@ I: 實作 (Implementation)
 C: 傳達 (Communication)  
 
 **定義問題**  
-B1) 透過溝通和觀察，找出真正要解的「問題 / User Stories」是什麼  
+B1) 透過溝通和觀察，找出真正要解的「問題」是什麼  
 
-Q：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？有溝通嗎?(Telling the story vs writing the story)   
+Q：TA/Persona是誰?基於什麼的觀察？   
 
 **分析**  
-A1) 研究「問題 / User Stories」的現有解法  
+A1) 研究「問題」的現有解法  
 A2) 分析解法中問題的「階層架構/模組」和「資料表達 - data / state / 資料結構」  
 A3) 分析解法中的「資料表達」的變化流程  
 
@@ -24,10 +24,10 @@ Q：每個解法的優缺點能夠說出來嗎？他們為什麼會這樣子設�
 **重構**  
 S1）對 A 重新提出各種更好的設計、包含 Prototype ( PS: 這步蘋果會有十種設計，之後會挑三種進入實作)  
 
-Q: 新的 User Stories 是什麼？這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據、觀察證明嗎？User story 有好的標準嗎? ( benchmark / test case)      
+Q：這樣的新設計好在哪裡？畫個表格和現有設計比較，有實驗數據證明嗎？( benchmark / test case)      
 
 **UI設計(從 User Story 想出畫面)**  
-I.UI設計.1) 想有要哪些資料/state/input/display 才能滿足新的 User Stories
+I.UI設計.1) 想有要哪些資料/state/input/display 才能滿足新的解法
 I.UI設計.1) 想有哪些 UI components 才能實現「資料表達/state」的變化流程  
 I.UI設計.2) 想每個 component 的 props (對外API & 元件要知道多少問題中自己的角色)  
 I.UI設計.3) 想每個元件的外觀、互動流程什麼樣子  
@@ -61,7 +61,6 @@ Q：第一次用這個東西，吸引你的地方是什麼？為什麼會想用�
 對一個問題的好設計會在商業模式可行、技術可行、滿足使用者需求這三個部份重疊的地方，所以要有好的設計最好什麼都懂一點 XD   前端工程師 ＝ 設計師找問題 + 工程師解決問題。  
   
 **延伸閱讀：**  
-關於 User Story - [使用者故事地圖](http://www.slideshare.net/ruddylee/user-story-51424688) 和 [best agile user story](http://www.alexandercowan.com/best-agile-user-story/)  
 關於 B1：通常使用者要你解的問題都不是真正問題。詳見Donald A.Norman的「設計的心理學」第六章  
 關於 蘋果設計流程: google “apple 10 3 1”   
 關於 I.render.2： google「local scope css」，Webpack設定可以參考 React toolbox  
