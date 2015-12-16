@@ -67,3 +67,4 @@ Q：第一次用這個東西，吸引你的地方是什麼？為什麼會想用�
 關於 I.render.3： [React的文件](https://github.com/facebook/react/blob/0b29035484f428cb56e7e1c04a88f66ac020d1d4/docs/docs/10.8-pure-render-mixin.md)  
 關於 C：詳見一個 FB 設計師 Juile Zhuo 的「[Design the beginning](https://medium.com/the-year-of-the-looking-glass/design-the-beginning-b8e61081ce42)」一文。  
 關於[設計流程的歷史](http://www.slideshare.net/divonis/design-process-8340952)  
+關於 User Story - [best agile user story](http://www.alexandercowan.com/best-agile-user-story/)
