@@ -12,7 +12,7 @@ C: 傳達 (Communication)
 **定義問題**  
 B1) 透過溝通和觀察，找出真正要解的「問題 / User Stories」是什麼  
 
-Q：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？   
+Q：User Story 有一條條寫完嗎？TA/Persona是誰？有市場需求嗎？有溝通嗎?(Telling the story vs writing the story)   
 
 **分析**  
 A1) 研究「問題 / User Stories」的現有解法  
