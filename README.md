@@ -33,7 +33,7 @@ I.UI設計.2) 想每個 component 的 props (對外API & 元件要知道多少�
 I.UI設計.3) 想每個元件的外觀、互動流程什麼樣子  
 
   
-**Design first, then code**  
+**Design first, code later**  
 這段是不用打開 HTML/JS/CSS 程式編輯器的，請用紙筆、Wireframe tool、Prototype tool、Sketch之類的，
 把元件和互動的流程視覺畫出來。
 
